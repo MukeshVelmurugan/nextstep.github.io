@@ -1,0 +1,53 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(203, 39, 39);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: rgb(166, 58, 58);
+    text-align: center;
+    padding: 0.95rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 5rem;
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 5rem;
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 0.75rem 2rem;
+    border: none;
+    cursor: pointer;
+}
